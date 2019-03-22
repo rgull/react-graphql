@@ -6,7 +6,7 @@ import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 
 export const GET_CUSTOMERS = gql`
-query getCustomers($input: GetVeunesInput!) {
+query getCustomers($input: GetCustomersInput!) {
     getCustomers(input: $input) {
         totalCount
         results {
